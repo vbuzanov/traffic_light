@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trafficLights{
+    width: 100px;
+    background-color: rgb(77, 72, 72);
+    margin: 1vh auto;
+    border-radius: 7px;
+}
+.trafficLights>div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trafficLights>div>p{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.red{
+    background-color: red !important;
+}
+.yellow{
+    background-color: yellow !important;
+}
+.green{
+    background-color: green !important;
+}
